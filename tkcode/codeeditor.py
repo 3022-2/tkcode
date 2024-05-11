@@ -5,8 +5,7 @@ Copyright: 2021 rdbende
 """
 
 import tkinter as tk
-from tkinter import ttk
-
+from customtkinter import CTkScrollbar
 from . import codebox
 
 
@@ -24,11 +23,11 @@ class CodeEditor(codebox.BaseCodeBox):
             self, master, language, highlighter, autofocus, **kwargs
         )
 
-        self.horizontal_scroll = ttk.Scrollbar(
-            self.frame, orient="horizontal", command=self.xview
+        self.horizontal_scroll = CTkScrollbar(
+            self.frame, orientation="horizontal", command=self.xview
         )
-        self.vertical_scroll = ttk.Scrollbar(
-            self.frame, orient="vertical", command=self.yview
+        self.vertical_scroll = CTkScrollbar(
+            self.frame, orientation="vertical", command=self.yview
         )
         self.configure(
             xscrollcommand=self.horizontal_scroll.set,

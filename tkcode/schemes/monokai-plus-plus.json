@@ -1,7 +1,7 @@
 {
     "general":
     {
-    	"background":"#1c1c1c",
+    	"background":"#242424",
     	"foreground": "#cccccc",
     	"insertbackground": "#f8f8f2",
     	"insertwidth": 1,

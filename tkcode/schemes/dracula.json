@@ -1,7 +1,7 @@
 {
     "general":
     {
-    	"background":"#282a36",
+    	"background":"#242424",
     	"foreground": "#f8f8f2",
     	"insertbackground": "#f8f8f0",
     	"insertwidth": 1,
@@ -20,7 +20,7 @@
 
     "syntax":
     {
-        "Token.Text": "#f8f8f2",
+        "Token.Text": "#303030",
         "Token.Other": "#f8f8f2",
         "Token.Eror": "#f8f8f0",
         "Token.Whitespace": "#f8f8f2",

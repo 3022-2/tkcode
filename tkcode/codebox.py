@@ -10,6 +10,7 @@ import tkinter as tk
 from tkinter import font as tkfont
 from tkinter import ttk
 from typing import Union
+import customtkinter
 
 import pygments
 from pygments.lexers import *
@@ -77,7 +78,7 @@ class BaseCodeBox(tk.Text):
                 f"Invalid tab length '{tab_length}', please give it in characters, eg: '4ch'"
             )
 
-        self.frame = ttk.Frame(master)
+        self.frame = customtkinter.CTkFrame(master)
         tk.Text.__init__(self, self.frame, **kwargs)
 
         tk.Text.grid(self, row=0, column=0, sticky="nsew")
