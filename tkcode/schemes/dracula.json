@@ -9,7 +9,7 @@
         "highlightthickness": 0,
         "borderwidth": 0
     },
-    
+
     
     "selection":
     {
@@ -45,12 +45,7 @@
                 "bold": true
             }
         },
-        "Token.Name.Class": {
-            "foreground": "#8be9fd",
-            "font": {
-                "underline": true
-            }
-        },
+        "Token.Name.Class": "#8be9fd",
         "Token.Name.Constant": "#bd93f9",
         "Token.Name.Decorator": "#8be9fd",
         "Token.Name.Entity": "#50fa7b",
